@@ -1,13 +1,13 @@
 
 fun main() {
     val nList = mutableListOf(9, 33, 1, 94, 54)
-   // println(numList)
+   // println(nList)
 
     val nString = nList.toString()
-   // println(numString)
+   // println(nString)
 
     val nStr = nString is String
-   // println(numStr)
+   // println(nStr)
 
     nList.forEach{i -> println(i)}
 
